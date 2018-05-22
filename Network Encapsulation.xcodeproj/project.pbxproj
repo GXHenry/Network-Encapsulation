@@ -7,15 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3152CCB322F27BF6487AA533 /* libPods-Network Encapsulation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 036B7DA7E7F82E43CE946F7E /* libPods-Network Encapsulation.a */; };
 		7D508E5A20B3C58300074684 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D508E5920B3C58300074684 /* AppDelegate.m */; };
 		7D508E5D20B3C58300074684 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D508E5C20B3C58300074684 /* ViewController.m */; };
 		7D508E6020B3C58300074684 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D508E5E20B3C58300074684 /* Main.storyboard */; };
 		7D508E6220B3C58400074684 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D508E6120B3C58400074684 /* Assets.xcassets */; };
 		7D508E6520B3C58400074684 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D508E6320B3C58400074684 /* LaunchScreen.storyboard */; };
 		7D508E6820B3C58400074684 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D508E6720B3C58400074684 /* main.m */; };
+		7D508E8320B3C5B500074684 /* RSAEncrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D508E7120B3C5B500074684 /* RSAEncrypt.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		7D508E8420B3C5B500074684 /* NSDataAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D508E7220B3C5B500074684 /* NSDataAdditions.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		7D508E8520B3C5B500074684 /* NSData+Encryption.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D508E7420B3C5B500074684 /* NSData+Encryption.m */; };
+		7D508E8620B3C5B500074684 /* mb_8002_1.cer in Resources */ = {isa = PBXBuildFile; fileRef = 7D508E7520B3C5B500074684 /* mb_8002_1.cer */; };
+		7D508E8720B3C5B500074684 /* SHA_1.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D508E7720B3C5B500074684 /* SHA_1.m */; };
+		7D508E8820B3C5B500074684 /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D508E7B20B3C5B500074684 /* GTMBase64.m */; };
+		7D508E8920B3C5B500074684 /* NSString+hexString.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D508E7C20B3C5B500074684 /* NSString+hexString.m */; };
+		7D508E8A20B3C5B500074684 /* Security.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D508E7F20B3C5B500074684 /* Security.m */; };
+		7D508E8B20B3C5B500074684 /* NetConnect.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D508E8120B3C5B500074684 /* NetConnect.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		036B7DA7E7F82E43CE946F7E /* libPods-Network Encapsulation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Network Encapsulation.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		33FA25C96ABF7A6504F9D9AC /* Pods-Network Encapsulation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Network Encapsulation.release.xcconfig"; path = "Pods/Target Support Files/Pods-Network Encapsulation/Pods-Network Encapsulation.release.xcconfig"; sourceTree = "<group>"; };
 		7D508E5520B3C58300074684 /* Network Encapsulation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Network Encapsulation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D508E5820B3C58300074684 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7D508E5920B3C58300074684 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +38,25 @@
 		7D508E6420B3C58400074684 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7D508E6620B3C58400074684 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7D508E6720B3C58400074684 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7D508E7020B3C5B500074684 /* SHA_1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHA_1.h; sourceTree = "<group>"; };
+		7D508E7120B3C5B500074684 /* RSAEncrypt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSAEncrypt.m; sourceTree = "<group>"; };
+		7D508E7220B3C5B500074684 /* NSDataAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDataAdditions.m; sourceTree = "<group>"; };
+		7D508E7320B3C5B500074684 /* GTMBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMBase64.h; sourceTree = "<group>"; };
+		7D508E7420B3C5B500074684 /* NSData+Encryption.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Encryption.m"; sourceTree = "<group>"; };
+		7D508E7520B3C5B500074684 /* mb_8002_1.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = mb_8002_1.cer; sourceTree = "<group>"; };
+		7D508E7620B3C5B500074684 /* NSString+hexString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+hexString.h"; sourceTree = "<group>"; };
+		7D508E7720B3C5B500074684 /* SHA_1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHA_1.m; sourceTree = "<group>"; };
+		7D508E7820B3C5B500074684 /* NSDataAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDataAdditions.h; sourceTree = "<group>"; };
+		7D508E7920B3C5B500074684 /* RSAEncrypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSAEncrypt.h; sourceTree = "<group>"; };
+		7D508E7A20B3C5B500074684 /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
+		7D508E7B20B3C5B500074684 /* GTMBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMBase64.m; sourceTree = "<group>"; };
+		7D508E7C20B3C5B500074684 /* NSString+hexString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+hexString.m"; sourceTree = "<group>"; };
+		7D508E7D20B3C5B500074684 /* NSData+Encryption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Encryption.h"; sourceTree = "<group>"; };
+		7D508E7E20B3C5B500074684 /* Security.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Security.h; sourceTree = "<group>"; };
+		7D508E7F20B3C5B500074684 /* Security.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Security.m; sourceTree = "<group>"; };
+		7D508E8120B3C5B500074684 /* NetConnect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetConnect.m; sourceTree = "<group>"; };
+		7D508E8220B3C5B500074684 /* NetConnect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetConnect.h; sourceTree = "<group>"; };
+		9ED661FC802569AA5FB38EE4 /* Pods-Network Encapsulation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Network Encapsulation.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Network Encapsulation/Pods-Network Encapsulation.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3152CCB322F27BF6487AA533 /* libPods-Network Encapsulation.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +76,8 @@
 			children = (
 				7D508E5720B3C58300074684 /* Network Encapsulation */,
 				7D508E5620B3C58300074684 /* Products */,
+				A6DFD70265E437D4D7E17984 /* Pods */,
+				83E5DD36D65500994130D408 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +92,8 @@
 		7D508E5720B3C58300074684 /* Network Encapsulation */ = {
 			isa = PBXGroup;
 			children = (
+				7D508E6E20B3C5B500074684 /* 加解密 */,
+				7D508E8020B3C5B500074684 /* 网络调用 */,
 				7D508E5820B3C58300074684 /* AppDelegate.h */,
 				7D508E5920B3C58300074684 /* AppDelegate.m */,
 				7D508E5B20B3C58300074684 /* ViewController.h */,
@@ -71,6 +107,63 @@
 			path = "Network Encapsulation";
 			sourceTree = "<group>";
 		};
+		7D508E6E20B3C5B500074684 /* 加解密 */ = {
+			isa = PBXGroup;
+			children = (
+				7D508E6F20B3C5B500074684 /* Security */,
+				7D508E7E20B3C5B500074684 /* Security.h */,
+				7D508E7F20B3C5B500074684 /* Security.m */,
+			);
+			path = "加解密";
+			sourceTree = "<group>";
+		};
+		7D508E6F20B3C5B500074684 /* Security */ = {
+			isa = PBXGroup;
+			children = (
+				7D508E7020B3C5B500074684 /* SHA_1.h */,
+				7D508E7120B3C5B500074684 /* RSAEncrypt.m */,
+				7D508E7220B3C5B500074684 /* NSDataAdditions.m */,
+				7D508E7320B3C5B500074684 /* GTMBase64.h */,
+				7D508E7420B3C5B500074684 /* NSData+Encryption.m */,
+				7D508E7520B3C5B500074684 /* mb_8002_1.cer */,
+				7D508E7620B3C5B500074684 /* NSString+hexString.h */,
+				7D508E7720B3C5B500074684 /* SHA_1.m */,
+				7D508E7820B3C5B500074684 /* NSDataAdditions.h */,
+				7D508E7920B3C5B500074684 /* RSAEncrypt.h */,
+				7D508E7A20B3C5B500074684 /* GTMDefines.h */,
+				7D508E7B20B3C5B500074684 /* GTMBase64.m */,
+				7D508E7C20B3C5B500074684 /* NSString+hexString.m */,
+				7D508E7D20B3C5B500074684 /* NSData+Encryption.h */,
+			);
+			path = Security;
+			sourceTree = "<group>";
+		};
+		7D508E8020B3C5B500074684 /* 网络调用 */ = {
+			isa = PBXGroup;
+			children = (
+				7D508E8120B3C5B500074684 /* NetConnect.m */,
+				7D508E8220B3C5B500074684 /* NetConnect.h */,
+			);
+			path = "网络调用";
+			sourceTree = "<group>";
+		};
+		83E5DD36D65500994130D408 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				036B7DA7E7F82E43CE946F7E /* libPods-Network Encapsulation.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A6DFD70265E437D4D7E17984 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9ED661FC802569AA5FB38EE4 /* Pods-Network Encapsulation.debug.xcconfig */,
+				33FA25C96ABF7A6504F9D9AC /* Pods-Network Encapsulation.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -78,6 +171,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7D508E6B20B3C58400074684 /* Build configuration list for PBXNativeTarget "Network Encapsulation" */;
 			buildPhases = (
+				4C2101A3BDAB50861ED4F13B /* [CP] Check Pods Manifest.lock */,
 				7D508E5120B3C58300074684 /* Sources */,
 				7D508E5220B3C58300074684 /* Frameworks */,
 				7D508E5320B3C58300074684 /* Resources */,
@@ -129,6 +223,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7D508E6520B3C58400074684 /* LaunchScreen.storyboard in Resources */,
+				7D508E8620B3C5B500074684 /* mb_8002_1.cer in Resources */,
 				7D508E6220B3C58400074684 /* Assets.xcassets in Resources */,
 				7D508E6020B3C58300074684 /* Main.storyboard in Resources */,
 			);
@@ -136,14 +231,43 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4C2101A3BDAB50861ED4F13B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Network Encapsulation-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7D508E5120B3C58300074684 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D508E8B20B3C5B500074684 /* NetConnect.m in Sources */,
 				7D508E5D20B3C58300074684 /* ViewController.m in Sources */,
+				7D508E8520B3C5B500074684 /* NSData+Encryption.m in Sources */,
+				7D508E8420B3C5B500074684 /* NSDataAdditions.m in Sources */,
+				7D508E8A20B3C5B500074684 /* Security.m in Sources */,
+				7D508E8820B3C5B500074684 /* GTMBase64.m in Sources */,
+				7D508E8720B3C5B500074684 /* SHA_1.m in Sources */,
 				7D508E6820B3C58400074684 /* main.m in Sources */,
+				7D508E8320B3C5B500074684 /* RSAEncrypt.m in Sources */,
 				7D508E5A20B3C58300074684 /* AppDelegate.m in Sources */,
+				7D508E8920B3C5B500074684 /* NSString+hexString.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +405,7 @@
 		};
 		7D508E6C20B3C58400074684 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9ED661FC802569AA5FB38EE4 /* Pods-Network Encapsulation.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -298,6 +423,7 @@
 		};
 		7D508E6D20B3C58400074684 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33FA25C96ABF7A6504F9D9AC /* Pods-Network Encapsulation.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
